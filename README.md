@@ -183,7 +183,8 @@ l=int(input())
 ```
 ### Output:
 
-![image](https://github.com/user-attachments/assets/4a9076d8-a2cf-44e1-b7d1-e638b7edf12f)
+![image](https://github.com/user-attachments/assets/d95b6ae8-8e1c-4733-bda3-897113508961)
+
 
 ### Result: 
 
