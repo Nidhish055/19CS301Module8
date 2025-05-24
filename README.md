@@ -189,6 +189,54 @@ l=int(input())
 ### Result: 
 
 Thus,the given program is implemented and executed successfully.
+
+EX: 8.e Python program to count the number of vowels and consonants from the given string
+
+### Aim:
+
+To Develop a python program to count the number of vowels and consonants from the given string
+
+
+### Algorithm:
+
+ 1. Start
+ 2. Input the string s
+ 3. Initialize two counters: v = 0 (vowels), c = 0 (consonants)
+ 4. For each character i in the string s:
+    a. If i is a vowel (in 'a', 'e', 'i', 'o', 'u' or uppercase versions):
+       - Increment v by 1
+    b. Else:
+       - Increment c by 1
+ 5. Print the number of vowels and consonants
+ 6. End
+
+### Program:
+
+```python
+# Reg no: 212223050032
+# Name: Nidhish B
+
+def fun(s):
+    v,c=0,0
+    for i in s:
+        if i in ['a','e','i','o','u','A','E','I','O','U']:
+            v+=1
+        else:
+            c+=1
+    print(f"Number of Vowels: {v}")
+    print(f"Number of Consonants: {c}")
+s=input()
+    
+
+```
+### Output:
+
+![image](https://github.com/user-attachments/assets/fe1b6d47-f114-404e-bfb3-7d4e1b378d6c)
+
+
+### Result: 
+
+Thus,the given program is implemented and executed successfully.
  
 
 
